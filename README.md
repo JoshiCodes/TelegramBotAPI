@@ -13,6 +13,9 @@ Using Pengrad's Telegram API ( https://github.com/pengrad/java-telegram-bot-api 
 
 For a simple quickstart have a look at the <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki">Wiki</a>
 
+<br><br>
 
+# Support and Help
 
+For Support and Help visit my Discord. <br>
 [![JoshiZockt.de Discord](https://discord.com/api/guilds/752831569772675072/widget.png?style=banner2)](https://discord.gg/WGAh3MJ)
