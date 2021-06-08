@@ -11,7 +11,7 @@ Using Pengrad's Telegram API ( https://github.com/pengrad/java-telegram-bot-api 
 
 # Quickstart
 
-For a simple quickstart have a look at the <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki">Wiki</a>
+For a simple quickstart have a look at the <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki/Getting-Started">Wiki</a>
 
 <br><br>
 
