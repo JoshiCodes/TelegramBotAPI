@@ -11,7 +11,12 @@ Using Pengrad's Telegram API ( https://github.com/pengrad/java-telegram-bot-api 
 
 # Quickstart
 
-For a simple quickstart have a look at the <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki/Getting-Started">Wiki</a>
+For a simple quickstart have a look at the <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki/Getting-Started">Wiki</a><br>
+
+# Maven Repo
+
+To implement the Project as Dependency in your Maven Project, you can downoad the lastest release <a href="https://github.com/JoshiCodes/TelegramBotAPI/releases/latest">here</a> or you can add the Dependency as an maven dependency. To do this, add the following:
+
 
 <br><br>
 
