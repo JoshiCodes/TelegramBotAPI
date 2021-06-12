@@ -35,7 +35,7 @@ You can Download the API <a href="https://github.com/JoshiCodes/TelegramBotAPI/r
     <dependency>
         <groupId>de.joshizockt</groupId>
         <artifactId>TelegramBotAPI</artifactId>
-        <version><latest version></version>
+        <version>VERSION</version>
     </dependency>
     ...
 </dependencies>
