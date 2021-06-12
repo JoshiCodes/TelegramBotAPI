@@ -1,6 +1,7 @@
 <p align="center">
         <a href="https://discord.gg/WGAh3MJ" alt="Discord"><img src="https://img.shields.io/discord/752831569772675072" /></a>
         <a alt="Language: Java"><img src="https://img.shields.io/github/languages/top/joshicodes/telegrambotapi" /></a>
+        <a alt="Version:"><img src="https://img.shields.io/github/v/release/JoshiCodes/TelegramBotAPI?include_prereleases&label=version"></a>
         <a alt="Download" href="https://github.com/JoshiCodes/TelegramBotAPI/releases/latest"><img src="https://img.shields.io/github/downloads-pre/JoshiCodes/TelegramBotAPI/latest/total?color=success&label=Downloads" /></a>
         </p>
        
