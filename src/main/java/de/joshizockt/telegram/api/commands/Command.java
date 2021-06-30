@@ -1,10 +1,10 @@
 package de.joshizockt.telegram.api.commands;
 
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
 import de.joshizockt.telegram.api.entities.Message;
 import de.joshizockt.telegram.api.entities.User;
 import de.joshizockt.telegram.api.event.events.ChatEvent;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public abstract class Command {
 

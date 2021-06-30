@@ -79,6 +79,18 @@ public class TelegramUpdateListener implements UpdatesListener {
                     return teleUser.canReadAllGroupMessages();
                 }
             };
+        Chat chat;
+        if(privateChat) {
+            PrivateChat c = new PrivateChat(api, teleChat.id());
+            c.setFirstName(teleChat.firstName());
+            c.setLastName(teleChat.lastName());
+            chat = c;
+        } else {
+            GroupChat c = new GroupChat(api, teleChat.id());
+            c.setInvite(teleChat.inviteLink());
+            c.setTitle(teleChat.title());
+            chat = c;
+        }
         Message msg = new Message() {
             @Override
             public String getContent() {
@@ -92,19 +104,11 @@ public class TelegramUpdateListener implements UpdatesListener {
             public com.pengrad.telegrambot.model.Message getReal() {
                 return teleMsg;
             }
+            @Override
+            public Chat getChat() {
+                return chat;
+            }
         };
-        Chat chat;
-        if(privateChat) {
-            PrivateChat c = new PrivateChat(api, teleChat.id());
-            c.setFirstName(teleChat.firstName());
-            c.setLastName(teleChat.lastName());
-            chat = c;
-        } else {
-            GroupChat c = new GroupChat(api, teleChat.id());
-            c.setInvite(teleChat.inviteLink());
-            c.setTitle(teleChat.title());
-            chat = c;
-        }
         ChatEvent event = ChatEvent.from(api, chat, msg);
         if(event == null) return;
         api.getEventManager().fire(event);

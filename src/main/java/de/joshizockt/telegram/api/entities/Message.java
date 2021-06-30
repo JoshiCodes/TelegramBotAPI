@@ -5,5 +5,6 @@ public interface Message {
     String getContent();
     User getSender();
     com.pengrad.telegrambot.model.Message getReal();
+    Chat getChat();
 
 }

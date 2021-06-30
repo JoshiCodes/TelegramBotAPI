@@ -3,9 +3,9 @@ package de.joshizockt.telegram.api.entities;
 import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SendPhoto;
-import com.sun.istack.internal.Nullable;
 import de.joshizockt.telegram.api.entities.sender.MessageSender;
 import de.joshizockt.telegram.api.java.TelegramAPI;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
 import java.util.List;
