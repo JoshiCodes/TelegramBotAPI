@@ -6,7 +6,7 @@
 
     <groupId>de.joshizockt</groupId>
     <artifactId>TelegramBotAPI</artifactId>
-    <version>0.9</version>
+    <version>0.9.3</version>
 
     <build>
         <extensions>

@@ -21,15 +21,21 @@ public class TelegramUpdateListener implements UpdatesListener {
     @Override
     public int process(List<Update> list) {
 
+        if(list == null) return CONFIRMED_UPDATES_NONE;
+
         for(Update u : list) {
-            parse(u);
+            if(u != null) {
+                parse(u);
+            }
         }
 
         return CONFIRMED_UPDATES_ALL;
     }
 
     private void parse(Update u) {
+        if(u.message() == null) return;
         com.pengrad.telegrambot.model.Message teleMsg = u.message();
+        if(teleMsg.chat() == null || teleMsg.from() == null) return;
         com.pengrad.telegrambot.model.User teleUser = teleMsg.from();
         com.pengrad.telegrambot.model.Chat teleChat = teleMsg.chat();
         boolean privateChat = (teleMsg.chat().firstName() != null);
