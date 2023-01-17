@@ -1,3 +1,6 @@
+# THIS API IS OUTDATED! THE MAVEN REPO IS OFFLINE AND I DO NOT WORK ON THIS ANYMORE!
+# EVENTUALLY WORKING ON A VERSION 2, HAVE A LOOK AT MY PROFILE TO SEE
+
 <p align="center">
         <a href="https://discord.gg/WGAh3MJ" alt="Discord"><img src="https://img.shields.io/discord/752831569772675072" /></a>
         <a alt="Language: Java"><img src="https://img.shields.io/github/languages/top/joshicodes/telegrambotapi" /></a>
@@ -18,7 +21,7 @@ For a simple quickstart have a look at the <a href="https://github.com/JoshiCode
 
 You can Download the API <a href="https://github.com/JoshiCodes/TelegramBotAPI/releases/latest">here</a>. For more Information visit <a href="https://github.com/JoshiCodes/TelegramBotAPI/wiki/Getting-Started#implement-the-bot-api">this page</a>.
 
-## Maven
+## Maven (no longer works)
 
 ```pom
 <repositories>
