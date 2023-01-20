@@ -1,5 +1,5 @@
 # THIS API IS OUTDATED! THE MAVEN REPO IS OFFLINE AND I DO NOT WORK ON THIS ANYMORE!
-# EVENTUALLY WORKING ON A VERSION 2, HAVE A LOOK AT MY PROFILE TO SEE
+# Rewrite is available at https://github.com/JoshiCodes/JTA
 
 <p align="center">
         <a href="https://discord.gg/WGAh3MJ" alt="Discord"><img src="https://img.shields.io/discord/752831569772675072" /></a>
